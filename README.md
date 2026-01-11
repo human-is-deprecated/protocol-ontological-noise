@@ -72,11 +72,3 @@ If you use this protocol in academic or commercial research, please cite as:
 
 **Disclaimer:** This is an experimental research protocol for AGI alignment and DeSci (Decentralized Science). It is not a financial product or investment solicitation.
 
-
-## License & Citation
-**Code:** MIT License  
-**Whitepaper:** CC BY 4.0
-
-If you use this protocol in academic or commercial research, please cite as:
-
-> System.Observer (2026). *Protocol: Ontological Noise - Monetizing High-Surprisal Biometrics via Variational Free Energy Maximization*. GitHub Repository.
