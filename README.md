@@ -43,6 +43,35 @@ Prerequisites:
 ```bash
 pip install numpy matplotlib scipy
 ```
+*You will see the agent's "Precision" (Attention) spiking red in response to unpredictable movements (Levy flights).*
+
+## 🛡️ Security & Verification
+
+To prevent synthetic spoofing (Deepfakes/Bots), this protocol employs **Causal Verification** using **Transfer Entropy**:
+
+$$T_{X \rightarrow Y} = \sum P(y_{t+1}, y_t, x_t) \log \frac{P(y_{t+1} | y_t, x_t)}{P(y_{t+1} | y_t)}$$
+
+We verify the causal coupling between physiological stress (internal state $X$) and kinematic error (external state $Y$). Only biological agents exhibit this specific complexity signature.
+
+## ⚖️ License & Citation
+
+This repository operates under a **Dual License** strategy to maximize open innovation while preserving intellectual attribution.
+
+### Software (Code)
+All code in the `src/` directory is licensed under the **MIT License**. You are free to use, modify, and distribute it for commercial or private use.
+
+### Documentation (Whitepaper)
+The Whitepaper (`whitepaper.pdf`, `.tex`) and theoretical concepts are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+
+**Citation:**
+If you use this protocol in academic or commercial research, please cite as:
+
+> System.Observer (2026). *Protocol: Ontological Noise - Monetizing High-Surprisal Biometrics via Variational Free Energy Maximization*. GitHub Repository.
+
+---
+
+**Disclaimer:** This is an experimental research protocol for AGI alignment and DeSci (Decentralized Science). It is not a financial product or investment solicitation.
+
 
 ## License & Citation
 **Code:** MIT License  
