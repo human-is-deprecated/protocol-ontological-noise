@@ -34,8 +34,8 @@ This high-energy state represents a **"Reality Gap"**—essential for training r
 
 ## 📦 Contents
 
-- **`whitepaper.pdf`**: The official academic paper detailing the theoretical architecture (FEP & Transfer Entropy).
-- **`src/predictive_coding_visualizer.py`**: A Proof-of-Concept simulation visualizing the "Attention Mechanism" and "Belief Update" in response to high-entropy inputs.
+- **[whitepaper.pdf](whitepaper.pdf)**: The official academic paper detailing the theoretical architecture (FEP & Transfer Entropy).
+- **[src/predictive_coding_visualizer.py](src/predictive_coding_visualizer.py)**: A Proof-of-Concept simulation visualizing the "Attention Mechanism" and "Belief Update" in response to high-entropy inputs.
 
 ## 🚀 Quick Start (Simulation)
 
