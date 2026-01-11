@@ -1,4 +1,6 @@
 # Protocol: Ontological Noise
+[🇯🇵 **Japanese / 日本語解説はこちら**](./README_JP.md)
+
 ### Monetizing High-Surprisal Biometrics via Variational Free Energy Maximization
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
